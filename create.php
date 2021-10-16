@@ -27,7 +27,7 @@
 
                     $result = mysqli_query($connect, $sql);
 
-                    header('Location: home.php');
+                    header('Location: index.php');
                    
                 else:
                     $message = "Unable to upload!";
